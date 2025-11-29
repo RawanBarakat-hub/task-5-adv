@@ -1,0 +1,11 @@
+.card{
+    margin: 56px 0 91px !important;
+    background-color: #F2EAE1;
+}
+.userImage{
+    width: 128px;
+}
+.title{
+    font-size: 17px !important;
+    margin-top: 20px !important;
+}

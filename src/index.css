@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+:root{
+    --primary-color: #FEAF00;
+    --sec-color: #6C6C6C;
+}
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+.white_spacing{
+    padding-left: 109px !important;
+    padding-right: 109px !important;
+}
+.my_bg_primary{
+    background-color: var(--primary-color) !important;
+}
+.my_text_secondary{
+    color: var(--sec-color) !important;
+}
+.fs_14{
+    font-size: 14px !important;
+}
+.w-fit{
+    width: fit-content !important;
+}
+.border_color{
+    border-color: #E5E5E5 !important;
+}
+.padding_input{
+    padding: 15px 15.03px 14px !important;
+}
+.info_input{
+    font-size: 12px !important;
+}
+.input_image{
+    border-style: dashed !important;
+    border-color: #384EB74D !important;
+    background-color: #d8dff742 !important;
+}
+@media screen and (max-width:992px) {
+    .white_spacing{
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+    }
+}

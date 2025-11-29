@@ -1,0 +1,25 @@
+.page {
+    gap: 5px;
+}
+.page-item{
+    border-color: #F1F1F1 !important;
+}
+.page-item .page-link {
+    width: 80px !important;
+    height: 80px !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    padding: 0 !important;
+    color: #333333 !important;
+    font-family: "Open Sans", sans-serif !important;
+    font-size: 13px !important;
+}
+.page-item.active .page-link{
+    background-color: var(--primary-color);
+    border: none;
+}
+.page-item .page-link:focus{
+    box-shadow: none !important;
+}

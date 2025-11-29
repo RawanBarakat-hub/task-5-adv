@@ -1,0 +1,51 @@
+.infos{
+    padding: 42px 30.6px 41px !important;
+    border-radius: 20px !important;
+    box-shadow: 2px 5px 10px 0px #0000001A;
+}
+.signup.infos{
+    padding: 42px 30.6px 20px !important;
+}
+.title{
+    margin: 43px 0 9px !important;
+    font-size: 22px !important;
+}
+.desc{
+    margin-bottom: 50px !important;
+}
+.box{
+    margin-bottom: 20px !important;
+}
+.label_input{
+    margin-bottom: 10px !important;
+    color: var(--sec-color);
+}
+.info_input{
+    font-size: 12px !important;
+    padding: 15px 15.03px 14px !important;
+    border-color: #E5E5E5 !important;
+}
+.my_btn{
+    padding: 14px 0 13px !important;
+    margin: 30px 0 27px !important;
+}
+.signup .my_btn{
+    margin: 15px 0 27px !important;
+}
+.link{
+    color: var(--primary-color);
+}
+.imageBox{
+    width: 100px;
+    height: 100px;
+    border-style: dashed !important;
+    border-color: #384EB74D !important;
+    background-color: #d8dff742 !important;
+
+}
+form > div:last-of-type {
+    margin-bottom: 0 !important;
+}
+.signup .box:last-of-type {
+    margin-bottom: 0 !important;
+}
