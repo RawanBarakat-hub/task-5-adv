@@ -8,7 +8,7 @@ const ApiCrud = () => {
                 className={`${styles.arrow} 
                 d-flex justify-content-center align-items-center
                 border border-black rounded-circle`}>
-                <Image src="/assets/images/arrow.svg" />
+                <Image src="/task-5-adv/assets/images/arrow.svg" />
             </Button>
             <Outlet/>
         </div>

@@ -44,7 +44,7 @@ const FormProducts = ({className,className1,show=false,inputs,sendData,submit}:F
                                         {
                                             input.value?<img src={input.value} alt={input.name} className={`${styles.image}
                                             h-100`}/>:
-                                            <img src="/assets/images/uploadicon.svg" alt="upload"
+                                            <img src="/task-5-adv/assets/images/uploadicon.svg" alt="upload"
                                             className={styles.uploadIcon} />
                                         }
                                     </div>

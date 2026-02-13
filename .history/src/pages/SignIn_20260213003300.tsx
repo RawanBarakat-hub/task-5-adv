@@ -46,7 +46,7 @@ const SignIn = () => {
         <div>
             <FormApi
             className="signin"
-            image="/assets/images/Logo.png"
+            image="/task-5-adv/assets/images/Logo.png"
             title="Sign In"
             description="Enter your credentials to access your account"
             inputs={inputs}

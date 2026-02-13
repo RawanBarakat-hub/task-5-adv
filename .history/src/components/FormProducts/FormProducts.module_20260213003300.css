@@ -1,6 +1,6 @@
 .products input{
     max-width: 664px !important;
-    background-image: url("/assets/images/search.svg");
+    background-image: url("/task-5-adv/assets/images/search.svg");
     background-repeat: no-repeat;
     background-position: calc(100% - 12px) 12px;
     padding: 11px !important;

@@ -63,7 +63,7 @@ const FormApi = ({
                                     <div className={`${styles.imageBox} d-flex justify-content-center align-items-center border rounded-1 mb-0`}
                                         onClick={() =>
                                             document.getElementById("profileImageInput")?.click()}>
-                                        <img src="/assets/images/uploadicon.svg" alt="upload" className={styles.uploadIcon} />
+                                        <img src="/task-5-adv/assets/images/uploadicon.svg" alt="upload" className={styles.uploadIcon} />
                                     </div>
                                 </>
                             ) : (

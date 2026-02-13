@@ -88,7 +88,7 @@ const Products = () => {
                                     src={item.image_url} 
                                     className={`${styles.image} my-3 mx-auto mw-100`} 
                                     onError={(e) => {
-                                        e.currentTarget.src = "/assets/images/box.png"; 
+                                        e.currentTarget.src = "/task-5-adv/assets/images/box.png"; 
                                     }}
                                 />
                                 <Card.ImgOverlay className={`${styles.hover_content} opacity-0`}>
@@ -113,7 +113,7 @@ const Products = () => {
                         ))}
                 </CardGroup>
             ) : (
-                    <Image src="/assets/images/box.png" />
+                    <Image src="/task-5-adv/assets/images/box.png" />
             )}
             <PaginationApi 
                 itemsNumber={itemsNumber} 

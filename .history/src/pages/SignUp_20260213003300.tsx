@@ -75,7 +75,7 @@ const SignUp = () => {
         <div>
             <FormApi
             className="signup"
-            image="/assets/images/Logo.png"
+            image="/task-5-adv/assets/images/Logo.png"
             title="Sign up"
             description="Fill in the following fields to create an account."
             inputs={inputs}

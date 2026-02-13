@@ -12,11 +12,11 @@ const CardApi = () => {
                 src={
                     user.image_url_profile ||    
                     user.profile_image_url ||      
-                    "/assets/images/userapi.png"   
+                    "/task-5-adv/assets/images/userapi.png"   
                 }
                 className={`${styles.userImage} rounded-circle`}
                 onError={(e) => {
-                    e.currentTarget.src = "/assets/images/userapi.png"; 
+                    e.currentTarget.src = "/task-5-adv/assets/images/userapi.png"; 
                 }}
                 />
             <Card.Body className='p-0'>

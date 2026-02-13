@@ -13,16 +13,16 @@ const SideBar = () => {
     }
     const btns:Array<Btn>=[
         {
-            image:"/assets/images/products.svg",
+            image:"/task-5-adv/assets/images/products.svg",
             text:"Products",
             onClick: showItems
         },
         {
-            image:"/assets/images/saved.svg",
+            image:"/task-5-adv/assets/images/saved.svg",
             text:"Favorites"
         },
         {
-            image:"/assets/images/saved.svg",
+            image:"/task-5-adv/assets/images/saved.svg",
             text:"order list"
         }
     ]
@@ -43,11 +43,11 @@ const SideBar = () => {
     return (
         <div className={`${styles.side} min-vh-100 h-auto position-relative d-flex flex-column align-items-center`}>
             <div className={`${styles.image_wrapper} w-fit border-start border-4`}>
-                <Image  src="/assets/images/Logo.png" className={styles.logo}/>
+                <Image  src="/task-5-adv/assets/images/Logo.png" className={styles.logo}/>
             </div>
             <CardApi/>
             <Buttons btns={btns}/>
-            <ButtonApi onClick={logOut} className="log_out" image="/assets/images/logout.svg" text="Logout" />
+            <ButtonApi onClick={logOut} className="log_out" image="/task-5-adv/assets/images/logout.svg" text="Logout" />
         </div>
 
         
