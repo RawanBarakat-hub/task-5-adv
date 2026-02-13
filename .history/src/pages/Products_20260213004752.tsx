@@ -11,6 +11,7 @@ const Products = () => {
     const [searchText, setSearchText] = useState("");
     const [page, setPage] = useState(1);
     const items = useLoaderData<Array<Item>>() || [];
+
     const filteredItems = items.filter(item =>
     item.name.toLowerCase().includes(searchText.toLowerCase()));
     const itemsNumber = filteredItems.length;
